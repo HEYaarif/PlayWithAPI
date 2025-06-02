@@ -1,12 +1,24 @@
-# React + Vite
+# CRUD Operations App with Real-Time API
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a simple React-based application that performs **CRUD (Create, Read, Update, Delete)** operations using a **real-time API**. It allows users to manage data efficiently with seamless integration between frontend and backend.
 
-Currently, two official plugins are available:
+## 🛠️ Features
+- Fetch and display real-time data from the API
+- Add new records using forms
+- Edit and update existing records
+- Delete records with confirmation
+- React Hooks (`useState`, `useEffect`) for state management
+- Axios for API requests
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📁 Project Structure
+src/
+├── Components/ # React components (List, Form, Item, etc.)
+├── api/ # Axios instance or API utility functions
+├── App.jsx # Main app logic and routing
+├── main.jsx # Entry point
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Technologies Used
+- React.js
+- Axios
+- REST API
+- CSS or Tailwind for styling (optional)
